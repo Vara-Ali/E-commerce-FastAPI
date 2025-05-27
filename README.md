@@ -26,7 +26,9 @@ A comprehensive RESTful API for managing e-commerce operations including product
 
 
 2. **Create virtual environment**
-bashpython -m venv venv
+```bash
+python -m venv venv
+
 
 3. **Activate virtual environment**
 
