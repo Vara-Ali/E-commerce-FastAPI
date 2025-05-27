@@ -28,28 +28,41 @@ A comprehensive RESTful API for managing e-commerce operations including product
 2. **Create virtual environment**
 ```bash
 python -m venv venv
-
+```
 
 3. **Activate virtual environment**
-
+```bash
 Windows:
-bashvenv\Scripts\activate
-
+venv\Scripts\activate
+```
 macOS/Linux:
-bashsource venv/bin/activate
-
+```bash
+source venv/bin/activate
+```
 
 
 4. **Install dependencies**
-bashpip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 
-5. **Set up database**
-bash# Database will be created automatically on first run
+
+6. **Set up database**
+
+```bash
 python main.py
+```
 
-6. **Run the application**
-bashuvicorn main:app --reload
 
-7. **Access the API**
+8. **Run the application**
 
-API Base URL: http://localhost:8000
+```bash
+uvicorn main:app --reload
+```
+
+10. **Access the API**
+
+API Base URL:
+```bash
+http://localhost:8000
+```
