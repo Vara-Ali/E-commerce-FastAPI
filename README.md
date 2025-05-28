@@ -67,3 +67,8 @@ API Base URL:
 ```bash
 http://localhost:8000
 ```
+
+11. **Populate the database**
+```bash
+ python -m app.db.seed
+```
